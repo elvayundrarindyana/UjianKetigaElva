@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Skornya">
+
+    <TextView
+        android:id="@+id/mtvBenar"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:text="benar" />
+
+    <TextView
+        android:id="@+id/tvSkorAkhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"
+        android:textColor="#1E58E9"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/mtvSalah"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="salah" />
+
+    <TextView
+        android:id="@+id/mtvSoal"
+        android:layout_width="123dp"
+        android:layout_height="61dp"
+        android:text="soal" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="145dp"
+        android:background="#B66850"
+        android:text="ulang quiz"
+        android:textSize="20sp" />
+
+</LinearLayout>
